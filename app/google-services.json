@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882694602173",
+    "project_id": "agro-firebase-5b926",
+    "storage_bucket": "agro-firebase-5b926.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882694602173:android:7dfe92e250951418afa6d4",
+        "android_client_info": {
+          "package_name": "com.example.maddesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882694602173-dlq85b5aem6so021grsd6t1fh8ufs36k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDq8R-tijUJuyKZouMLfLnlYy-AuTztHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882694602173-dlq85b5aem6so021grsd6t1fh8ufs36k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Agro</string>
+
+    <string name="FertilizerName">Fertilizer Name:</string>
+    <string name="Amount">Amount:</string>
+    <string name="price">Price:</string>
+    <string name="AddPic">Add Picture:</string>
+    <string name="Uploadpic">Upload Picture:</string>
+    <string name="Addbtn">Add</string>
+    <string name="Addfertitle">Add Fertilizer</string>
+
+    <string name="Mainfer">Fertilizer</string>
+    <string name="myshop2">My Shop</string>
+    <string name="VisitShops">Visit Sellers</string>
+    <string name="Addfertxt">Add Fertilizer</string>
+    <string name="MyOrders">My Orders</string>
+
+    <string name="Myshoptitle">My Shop</string>
+    <string name="Dolamite">Dolamite</string>
+    <string name="tsp">TSP</string>
+    <string name="uria">Uria</string>
+    <string name="phumate">Potasium Humate</string>
+
+    <string name="visitshoptitle">Visit Sellers</string>
+    <string name="tsp2">TSP</string>
+    <string name="dolamite2">Dolamite</string>
+    <string name="uria2">Uria</string>
+
+
+    <string name="button12">viewmore</string>
+    <string name="textView54">My orders</string>
+
+</resources>

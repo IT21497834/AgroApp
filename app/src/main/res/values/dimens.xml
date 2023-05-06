@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width_homeicon">146dp</dimen>
+    <dimen name="layout_height_">119dp</dimen>
+    <dimen name="layout_width_visiticon">142dp</dimen>
+    <dimen name="layout_height_visiticon">122dp</dimen>
+    <dimen name="layout_width_addfericon">131dp</dimen>
+    <dimen name="layout_height_addfericon">124dp</dimen>
+    <dimen name="layout_width_ordericon">141dp</dimen>
+    <dimen name="layout_height_ordericon">122dp</dimen>
+    <dimen name="layout_width_profilebtn">109dp</dimen>
+    <dimen name="layout_height_profilebtn">107dp</dimen>
+    <dimen name="orderpageicon_layerwidth">85dp</dimen>
+    <dimen name="layout_height_orderpageicon">67dp</dimen>
+    <dimen name="widthforicons1">392dp</dimen>
+    <dimen name="heightforicon1">200dp</dimen>
+    <dimen name="updatebutton_1">83dp</dimen>
+    <dimen name="updatebutton_2height">32dp</dimen>
+    <dimen name="feradd_btnwidth">197dp</dimen>
+    <dimen name="heightbtn_update">60dp</dimen>
+    <dimen name="profileimgwidth">126dp</dimen>
+    <dimen name="profileimgheight">121dp</dimen>
+    <dimen name="profileupdt_width">129dp</dimen>
+    <dimen name="profileupdt_heightbtn">64dp</dimen>
+    <dimen name="profiledelete_widthbtn">127dp</dimen>
+    <dimen name="height_profile_delete_btn">61dp</dimen>
+    <dimen name="main_bg_img">414dp</dimen>
+    <dimen name="mainimg_bg">822dp</dimen>
+
+
+</resources>

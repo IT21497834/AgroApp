@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3AD77"
+    android:backgroundTint="#6A5030"
+    android:foregroundTint="#6A6352"
+    tools:context=".MyShop">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="-170dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/headbar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="185dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/Myshoptitle"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="183dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/previous" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="171dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/store" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="@dimen/widthforicons1"
+        android:layout_height="@dimen/heightforicon1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        app:srcCompat="@drawable/iconbg" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="392dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/iconbg" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#2EA32C"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#D12C16"
+        android:text="delete"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="147dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="56dp"
+        android:text="amount : 45kg"
+        android:textColor="#100606"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="84dp"
+        android:text="Date : 11/08/2023"
+        android:textColor="#100606"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="392dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:srcCompat="@drawable/iconbg" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#2EA32C"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="21dp"
+        android:backgroundTint="#D12C16"
+        android:text="delete"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="64dp"
+        android:text="amount : 45kg"
+        android:textColor="#100606"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="72dp"
+        android:text="Date : 11/08/2023"
+        android:textColor="#100606"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="392dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:srcCompat="@drawable/iconbg" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="#2EA32C"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#D12C16"
+        android:text="delete"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="91dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="68dp"
+        android:text="amount : 45kg"
+        android:textColor="#100606"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:text="Date : 11/08/2023"
+        android:textColor="#100606"
+        app:layout_constraintStart_toEndOf="@+id/imageView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="112dp"
+        android:text="@string/Dolamite"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="164dp"
+        android:text="@string/tsp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="156dp"
+        android:text="@string/uria"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="217dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/phumate"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="129dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="76dp"
+        android:text="amount : 45kg"
+        android:textColor="#100606"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="88dp"
+        android:text="Date : 11/08/2023"
+        android:textColor="#100606"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="155dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="23dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/dolamitenew2" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="165dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18"
+        app:srcCompat="@drawable/potassium_humate_" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="157dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:srcCompat="@drawable/tsp__1_" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="156dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:srcCompat="@drawable/urea__1_" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#D12C16"
+        android:text="delete"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/updatebutton_1"
+        android:layout_height="@dimen/updatebutton_2height"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#2EA32C"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
