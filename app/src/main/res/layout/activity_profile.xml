@@ -10,13 +10,15 @@
         android:id="@+id/imageView10"
         android:layout_width="411dp"
         android:layout_height="739dp"
+        android:background="#00BCD4"
+        android:backgroundTint="#00BCD4"
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bg4" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button00"
         android:layout_width="129dp"
         android:layout_height="64dp"
         android:layout_marginStart="56dp"
@@ -43,102 +45,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
-    <TextView
-        android:id="@+id/textView52"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="360dp"
-        android:text="Kaduwela"
-        android:textColor="#4C4848"
-        android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/textView48"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="308dp"
-        android:text="Himesh Nanayakara"
-        android:textColor="#4C4848"
-        android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/textView47"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="408dp"
-        android:text="Mobile :"
-        android:textColor="#070404"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
-
-    <TextView
-        android:id="@+id/textView49"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="244dp"
-        android:text="Gmail : "
-        android:textColor="#070404"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
-
-    <TextView
-        android:id="@+id/textView48"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="348dp"
-        android:text="Location :"
-        android:textColor="#070404"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
-
-    <TextView
-        android:id="@+id/textView51"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="416dp"
-        android:text="0715689475"
-        android:textColor="#4C4848"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
-
-    <TextView
-        android:id="@+id/textView47"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="296dp"
-        android:text="Name : "
-        android:textColor="#070404"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
-
-    <TextView
-        android:id="@+id/textView53"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="252dp"
-        android:text="himesh21497834@gmail.com"
-        android:textColor="#4C4848"
-        android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/textView49"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
-
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="@dimen/profileimgwidth"
@@ -158,4 +64,69 @@
         app:layout_constraintStart_toStartOf="@+id/imageView27"
         app:layout_constraintTop_toTopOf="@+id/imageView27"
         app:srcCompat="@drawable/edit" />
+
+    <EditText
+        android:id="@+id/sellername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:width="300dp"
+        android:background="#92BCCF"
+        android:backgroundTint="#00BCD4"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/selleremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="316dp"
+        android:width="300dp"
+        android:background="@color/teal_200"
+        android:backgroundTint="#00BCD4"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/sellerlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="392dp"
+        android:width="300dp"
+        android:background="@color/teal_200"
+        android:backgroundTint="#00BCD4"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/sellermobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="465dp"
+        android:width="300dp"
+        android:background="@color/teal_700"
+        android:backgroundTint="#00BCD4"
+        android:ems="10"
+        android:hint="Mobile"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
 </androidx.constraintlayout.widget.ConstraintLayout>
