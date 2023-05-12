@@ -6,12 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".FertilizerDetailsActivity">
 
+    <ImageView
+        android:id="@+id/imageView234"
+        android:layout_width="@dimen/main_bg_img"
+        android:layout_height="@dimen/mainimg_bg"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgimg5" />
 
     <Button
         android:id="@+id/btnUpdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="76dp"
+        android:height="80dp"
+        android:backgroundTint="#3F51B5"
         android:text="Update"
         app:layout_constraintEnd_toStartOf="@+id/btnDelete"
         app:layout_constraintHorizontal_bias="0.5"
@@ -22,7 +32,9 @@
         android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="76dp"
+        android:height="80dp"
+        android:backgroundTint="#B12B2B"
         android:text="Delete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -31,23 +43,24 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="417dp"
+        android:layout_height="305dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        android:orientation="vertical">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <LinearLayout
             android:id="@+id/id_lin"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
             android:orientation="horizontal"
             android:weightSum="2"
+            android:layout_marginBottom="10dp"
 
             >
 
@@ -55,7 +68,9 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/purple_200">
+
+                android:background="#B34E1B1B">
+
 
                 <TextView
                     android:layout_width="match_parent"
@@ -71,19 +86,22 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.4">
+                android:layout_weight="1.4"
+                android:background="#CCFFFFFF"
+                android:backgroundTint="#FFFFFF">
 
                 <TextView
                     android:id="@+id/tvFertileID"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+
                     android:gravity="center"
+                    android:includeFontPadding="false"
+
                     android:text=""
                     android:textColor="@color/black"
-                    android:textSize="15sp"
-
-                    />
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -94,17 +112,18 @@
         <LinearLayout
             android:id="@+id/contact_lin"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:orientation="horizontal"
-            android:weightSum="2">
+            android:weightSum="2"
+            android:layout_marginBottom="10dp">
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/purple_200">
+                android:background="#B34E1B1B">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -120,19 +139,21 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.4">
+                android:layout_weight="1.4"
+                android:background="#CCFFFFFF"
+                android:backgroundTint="#FFFFFF">
 
                 <TextView
                     android:id="@+id/tvFertileName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+
                     android:gravity="center"
                     android:text=""
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
 
-                    />
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -142,11 +163,12 @@
         <LinearLayout
 
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:orientation="horizontal"
             android:weightSum="2"
+            android:layout_marginBottom="10dp"
 
             >
 
@@ -154,7 +176,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/purple_200">
+                android:background="#B34E1B1B">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -173,19 +195,21 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.4">
+                android:layout_weight="1.4"
+                android:background="#CCFFFFFF"
+                android:backgroundTint="#FFFFFF">
 
                 <TextView
                     android:id="@+id/tvFertileAmount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+
                     android:gravity="center"
                     android:text=""
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
 
-                    />
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -196,7 +220,7 @@
         <LinearLayout
 
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:orientation="horizontal"
@@ -204,11 +228,12 @@
 
             >
 
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/purple_200">
+                android:background="#B34E1B1B">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -228,19 +253,22 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.4">
+                android:layout_weight="1.4"
+                android:background="#CCFFFFFF"
+                android:backgroundTint="#FFFFFF">
 
                 <TextView
                     android:id="@+id/tvFertilePrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+
                     android:gravity="center"
                     android:text=""
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
 
-                    />
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
 
             </LinearLayout>
 

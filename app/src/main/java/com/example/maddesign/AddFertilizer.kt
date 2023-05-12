@@ -1,10 +1,10 @@
 package com.example.maddesign
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.maddesign.model.FertilizerModel
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -37,18 +37,21 @@ class AddFertilizer : AppCompatActivity() {
 
     private fun saveFertilizer(){
         //getting values
-        val fertileName = editTextTextPersonName.text.toString()
-        val fertileAmount =editTextNumber.text.toString()
-        val fertilePrice= editTextNumber2.text.toString()
+        val fertileName = editTextTextPersonName.text.toString().trim()
+        val fertileAmount =editTextNumber.text.toString().trim()
+        val fertilePrice= editTextNumber2.text.toString().trim()
 
         if(fertileName.isEmpty()){
             editTextTextPersonName.error="Please Enter Fertilizer Name"
+            return@saveFertilizer
         }
         if(fertileAmount.isEmpty()){
             editTextNumber.error="Please Enter the Amount"
+            return@saveFertilizer
         }
         if(fertilePrice.isEmpty()){
             editTextNumber2.error="Please Enter the Price"
+            return@saveFertilizer
         }
 
         val fertileId=dbRef.push().key!!

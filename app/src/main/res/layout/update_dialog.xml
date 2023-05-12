@@ -21,6 +21,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Amount"
+        android:inputType="number"
         android:minHeight="48dp" />
 
     <EditText
@@ -30,7 +31,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Price"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:minHeight="48dp" />
 
     <Button
