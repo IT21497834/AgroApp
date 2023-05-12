@@ -1,10 +1,11 @@
 package com.example.maddesign
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Patterns
 import android.widget.Button
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 import com.example.maddesign.model.SellerModel
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -42,23 +43,38 @@ class Profile : AppCompatActivity() {
 
     private fun saveDetails(){
     //getting values
-    val sellerName = sellername.text.toString()
-    val sellerEmail =selleremail.text.toString()
-    val sellerLocation= sellerlocation.text.toString()
-    val sellerMobile= sellermobile.text.toString()
+    val sellerName = sellername.text.toString().trim()
+    val sellerEmail =selleremail.text.toString().trim()
+    val sellerLocation= sellerlocation.text.toString().trim()
+    val sellerMobile= sellermobile.text.toString().trim()
 
     if(sellerName.isEmpty()){
         sellername.error="Please Enter Fertilizer Name"
+        return@saveDetails
     }
-    if(sellerEmail.isEmpty()){
-        selleremail.error="Please Enter the Amount"
-    }
+//    if(sellerEmail.isEmpty()){
+//        selleremail.error="Please Enter the Amount"
+//    }
+        if(!Patterns.EMAIL_ADDRESS.matcher(sellerEmail).matches()){
+            selleremail.error="Please Enter Valid Email Address"
+            return@saveDetails
+        }
+
     if(sellerLocation.isEmpty()){
         sellerlocation.error="Please Enter the Price"
+        return@saveDetails
+
     }
 
-        if(sellerMobile.isEmpty()){
-            sellermobile.error="Please Enter the Price"
+//        if(sellerMobile.isEmpty()){
+//            sellermobile.error="Please Enter the Price"
+//            return@saveDetails
+//        }
+
+        val mobilePattern = "^[+]?[0-9]{10,13}\$"
+        if(!sellerMobile.matches(mobilePattern.toRegex())){
+            sellermobile.error="Please Enter Valid Mobile Number"
+            return
         }
 
     val SellerId=dbRef.push().key!!
