@@ -2,10 +2,9 @@ package com.example.maddesign
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val Register1Btn = findViewById<ImageButton>(R.id.myShop)
         Register1Btn.setOnClickListener {
-            val Intent = Intent(this,MyShop::class.java)
+            val Intent = Intent(this,FetchingActivity::class.java)
             startActivity(Intent)
         }
 

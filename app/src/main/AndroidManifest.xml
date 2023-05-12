@@ -13,6 +13,51 @@
         android:theme="@style/Theme.MadDesign"
         tools:targetApi="31">
         <activity
+            android:name=".FertilizerDetailsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FertilizerListItems"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FetchingActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Fertilizer_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fertilizer_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Fetching_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fertilizer_list"
+            android:exported="false" />
+        <activity
+            android:name=".tst"
+            android:exported="false" />
+        <activity
+            android:name=".Ferilizer_Details"
+            android:exported="false" />
+        <activity
+            android:name=".List_Item"
+            android:exported="false" />
+        <activity
+            android:name=".Fetching_Activity_1"
+            android:exported="false" />
+        <activity
             android:name=".myorders"
             android:exported="false">
             <meta-data
