@@ -99,6 +99,7 @@ class FertilizerDetailsActivity : AppCompatActivity() {
         etFertiAmount.setText(intent.getStringExtra("fertileAmount").toString())
         etFertiPrice.setText(intent.getStringExtra("fertilePrice").toString())
 
+
         mDialog.setTitle("Updating $FertiName Record")
 
         val alertDialog = mDialog.create()
