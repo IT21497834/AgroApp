@@ -97,8 +97,7 @@ class FertilizerDetailsActivity : AppCompatActivity() {
 
         etFertiName.setText(intent.getStringExtra("fertileName").toString())
         etFertiAmount.setText(intent.getStringExtra("fertileAmount").toString())
-        etFertiPrice.setText(intent.getStringExtra("fertileP" +
-                ".rice").toString())
+        etFertiPrice.setText(intent.getStringExtra("fertilePrice").toString())
 
         mDialog.setTitle("Updating $FertiName Record")
 
