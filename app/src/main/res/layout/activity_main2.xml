@@ -7,7 +7,7 @@
     android:background="#C3AD77"
     android:backgroundTint="#6A5030"
     android:foregroundTint="#6A6352"
-    tools:context=".MyShop">
+    tools:context=".Activities.MyShop">
 
     <ImageView
         android:id="@+id/imageView"

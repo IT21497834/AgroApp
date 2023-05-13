@@ -1,11 +1,13 @@
-package com.example.maddesign
+package com.example.maddesign.Activities
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.maddesign.R
 import com.example.maddesign.model.SellerModel
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -83,17 +85,14 @@ class Profile : AppCompatActivity() {
 
     dbRef.child(SellerId).setValue(seller)
 
-//    .addOnCompleteListener{
-//        Toast.makeText(this,"Data Inserted Successfuly", Toast.LENGTH_LONG).show()
-//
-//        editTextTextPersonName.text.clear()
-//        editTextNumber.text.clear()
-//        editTextNumber2.text.clear()
-//
-//    }.addOnFailureListener{err->
-//        Toast.makeText(this,"Error ${err.message}", Toast.LENGTH_LONG).show()
-//
-//    }
+    .addOnCompleteListener{
+        Toast.makeText(this,"Data Inserted Successfuly", Toast.LENGTH_LONG).show()
+
+
+    }.addOnFailureListener{err->
+        Toast.makeText(this,"Error ${err.message}", Toast.LENGTH_LONG).show()
+
+    }
 }
 
 }

@@ -13,21 +13,21 @@
         android:theme="@style/Theme.MadDesign"
         tools:targetApi="31">
         <activity
-            android:name=".FertilizerDetailsActivity"
+            android:name=".Activities.FertilizerDetailsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FertilizerListItems"
+            android:name=".Activities.FertilizerListItems"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FetchingActivity"
+            android:name=".Activities.FetchingActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -58,35 +58,35 @@
             android:name=".Fetching_Activity_1"
             android:exported="false" />
         <activity
-            android:name=".myorders"
+            android:name=".Activities.myorders"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Profile"
+            android:name=".Activities.Profile"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ItemView"
+            android:name=".Activities.ItemView"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".visitshop"
+            android:name=".Activities.visitshop"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".AddFertilizer"
+            android:name=".Activities.AddFertilizer"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -100,14 +100,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MyShop"
+            android:name=".Activities.MyShop"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

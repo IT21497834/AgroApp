@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#C8C5BF"
     android:backgroundTint="#7E7777"
-    tools:context=".AddFertilizer">
+    tools:context=".Activities.AddFertilizer">
 
     <ImageView
         android:id="@+id/imageView9"

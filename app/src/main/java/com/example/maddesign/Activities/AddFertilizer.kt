@@ -1,10 +1,11 @@
-package com.example.maddesign
+package com.example.maddesign.Activities
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.maddesign.R
 import com.example.maddesign.model.FertilizerModel
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -49,8 +50,15 @@ class AddFertilizer : AppCompatActivity() {
             editTextNumber.error="Please Enter the Amount"
             return@saveFertilizer
         }
+
+
         if(fertilePrice.isEmpty()){
             editTextNumber2.error="Please Enter the Price"
+            return@saveFertilizer
+        }
+        val pricepatern = "[0-9]+"
+        if (!fertilePrice.matches(pricepatern.toRegex())) {
+            editTextNumber2.error = "Please enter price"
             return@saveFertilizer
         }
 

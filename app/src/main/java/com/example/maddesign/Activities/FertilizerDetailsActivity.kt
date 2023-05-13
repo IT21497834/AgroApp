@@ -1,4 +1,4 @@
-package com.example.maddesign
+package com.example.maddesign.Activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.example.maddesign.R
 import com.example.maddesign.model.FertilizerModel
 import com.google.firebase.database.FirebaseDatabase
 
