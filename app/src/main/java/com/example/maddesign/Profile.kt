@@ -49,7 +49,7 @@ class Profile : AppCompatActivity() {
     val sellerMobile= sellermobile.text.toString().trim()
 
     if(sellerName.isEmpty()){
-        sellername.error="Please Enter Fertilizer Name"
+        sellername.error="Please Enter User Name"
         return@saveDetails
     }
 //    if(sellerEmail.isEmpty()){

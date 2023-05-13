@@ -23,6 +23,7 @@ class FetchingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fetching)
 
+
         empRecycleView = findViewById(R.id.rvEmp)
         empRecycleView.layoutManager = LinearLayoutManager(this)
         empRecycleView.setHasFixedSize(true)

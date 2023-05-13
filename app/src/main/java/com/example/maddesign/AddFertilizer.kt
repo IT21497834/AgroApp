@@ -25,7 +25,7 @@ class AddFertilizer : AppCompatActivity() {
         editTextTextPersonName=findViewById(R.id.editTextTextPersonName)
         editTextNumber=findViewById(R.id.editTextNumber)
         editTextNumber2=findViewById(R.id.editTextNumber2)
-       buttonsave=findViewById(R.id.button2)
+        buttonsave=findViewById(R.id.button2)
 
         dbRef = FirebaseDatabase.getInstance().getReference("Fertilizer")
 
