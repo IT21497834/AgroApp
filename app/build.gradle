@@ -46,6 +46,8 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:32.0.0')
     implementation 'com.google.firebase:firebase-database-ktx'
 
-    implementation "com.airbnb.android:lottie:6.0.0"
+
+   testImplementation "com.google.truth:truth:1.1.2"
+    androidTestImplementation "com.google.truth:truth:1.1.2"
 
 }
